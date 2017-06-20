@@ -16,6 +16,10 @@ exports.keystone = {
   enable: true,
   package: 'egg-keystone'
 };
+exports.memcached = {
+  enable: true,
+  package: 'egg-memcached'
+};
 ```
 
 ## Configuration
