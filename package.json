@@ -1,0 +1,20 @@
+{
+  "name": "egg-keystone",
+  "version": "1.0.0",
+  "eggPlugin": {
+    "name": "keystone",
+    "dependencies": [
+      "memcached"
+    ]
+  },
+  "description": "Egg plugin OpenStack Keystone Token Service.",
+  "main": "app.js",
+  "repository": "git@github.com:LiShiSangZi/egg-keystone.git",
+  "author": "gogocorw <gogocrow@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "egg": "^1.4.0",
+    "egg-bin": "^4.0.0",
+    "egg-memcached": "^1.0.0"
+  }
+}
