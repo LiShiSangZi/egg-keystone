@@ -1,8 +1,8 @@
 {
   "name": "egg-keystone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
-    "node": "7.9.0"
+    "node": ">=7.9.0"
   },
   "eggPlugin": {
     "name": "keystone",

@@ -5,6 +5,8 @@ This is a egg plugin for fetching keystone token according to the default user/p
 To use this configuration, you need to make sure you also have a memcached to save the keystone token temporality. Because we don't want to generate a token everytime you need it.
 
 ## Install
+Please make sure node 7.9.0 or above is install before you start.
+
 ```
 $ npm i egg-keystone --save
 ```
